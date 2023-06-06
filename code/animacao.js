@@ -1,17 +1,17 @@
 // Função para animar o cachorro
 function animateDog() {
     var dog = document.getElementById("dog");
-    var position = 0;
+    var position = -dog.clientWidth; // Posição inicial fora da janela à esquerda
     var direction = 1;
-    var maxWidth = document.documentElement.clientWidth - dog.clientWidth;
+    var maxWidth = document.documentElement.scrollWidth; // Largura total da página
 
     // Função de animação
     function frame() {
         // Atualiza a posição do cachorro
         position += direction * 10; // Aumenta a quantidade de pixels para mover o cachorro
 
-        // Verifica se o cachorro ultrapassou as bordas da janela
-        if (position >= maxWidth || position <= 0) {
+        // Verifica se o cachorro ultrapassou as bordas da página
+        if (position >= maxWidth || position <= -dog.clientWidth) {
             // Vira o cachorro
             dog.style.transform = direction === 1 ? "scaleX(-1)" : "scaleX(1)";
 

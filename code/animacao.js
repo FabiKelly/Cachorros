@@ -8,7 +8,7 @@ function animateDog() {
     // Função de animação
     function frame() {
         // Atualiza a posição do cachorro
-        position += direction * 10; // Aumenta a quantidade de pixels para mover o cachorro
+        position += direction * 5; // Aumenta a quantidade de pixels para mover o cachorro
 
         // Verifica se o cachorro ultrapassou as bordas da página
         if (position >= maxWidth || position <= -dog.clientWidth) {

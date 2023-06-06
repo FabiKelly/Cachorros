@@ -84,6 +84,5 @@ footer {
 	border: none;
 	position: relative;
 	left: 0;
-	transition: left 1s linear;
-	width: 90px;
+	width: 80px;
 }

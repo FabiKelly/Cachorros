@@ -1,5 +1,3 @@
-//a animação começa no canto esquerdo, mas não vai até o canto direito e ao voltar não chega ao canto esquerdo novamente
-
 // Função para animar o cachorro
 function animateDog() {
     var dog = document.getElementById("dog");

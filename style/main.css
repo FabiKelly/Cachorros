@@ -86,3 +86,11 @@ footer {
 	left: 0;
 	width: 80px;
 }
+#videoT {
+	margin-bottom: 20px;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+}

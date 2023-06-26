@@ -19,10 +19,10 @@
 .thumbnail {
     display: flex;
     position: relative;
+    margin-left: 10px;
 }
 .thumbnail::before {
     position: absolute;
-    content: attr(data-duration);
     background-color: rgba(0, 0, 0, .85);
     color: white;
     right: 5px;

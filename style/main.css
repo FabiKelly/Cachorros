@@ -70,10 +70,6 @@ main a {
 	color: black;
 	text-decoration: none;
 }
-main a:hover {
-	background-color: lightblue;
-	padding: 2px;
-}
 footer {
 	background-color: #333;
 	color: #fff;
@@ -85,14 +81,6 @@ footer {
 	position: relative;
 	left: 0;
 	width: 80px;
-}
-#videoT {
-	margin-bottom: 20px;
-}
-
-iframe {
-    display: block;
-    margin: 0 auto;
 }
 div {
     margin-left: 5%;

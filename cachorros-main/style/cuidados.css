@@ -1,0 +1,59 @@
+#vacina {
+    width: 14em;
+    height: 10em;
+
+}
+
+#bombado {}
+
+#lugar {}
+
+#aguinha {
+    display: block;
+    width: 100px;
+    border-radius: 10px;
+}
+
+#socializar {}
+
+#socializar {}
+
+#plantas {}
+
+#quality {}
+
+#smile {}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    font-size: 24px;
+    color: #333;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.dog-image {
+    width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#jojo{
+	position: absolute;
+
+}
+.left {
+    float: left;
+    
+}

@@ -69,14 +69,6 @@ img {
 #tr h2 {
 	text-align: center;
 }
-#galeria span{
-	position: absolute;
-	margin-left: -170px;
-	margin-top: 5px;
-	border: 2px solid #333;
-	border-radius: 4px;
-	background-color: lightblue;
-}
 main {
     margin-left: 5%;
     margin-right: 5%;
@@ -89,10 +81,9 @@ main a {
 footer {
 	background-color: #333;
 	color: #fff;
-	padding: 2px;
 	text-align: center;
 }
-#dog{
+#dog {
 	border: none;
 	position: relative;
 	left: 0;

@@ -1,0 +1,44 @@
+section {
+    margin-bottom: 30px;
+}
+section h2 {
+    font-size: 24px;
+    color: #333;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+#vacina {
+    width: 14em;
+    height: 10em;
+
+}
+#aguinha {
+    display: block;
+    width: 100px;
+    border-radius: 10px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.dog-image {
+    width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+#fa{
+	position: relative;
+}
+#geo p{
+    margin-bottom: 160px;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+    margin-top: -111px;
+}
